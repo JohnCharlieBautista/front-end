@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+header {
+  margin-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.logo-row {
+  width: 5px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+body{
+  margin:0;
+  background-image:url(../img/background2.png);
+  background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+margin: 0; 
+height: 100%;
+overflow: hidden;
+}
+
+div.girl{
+  position:relative;
+}
+img .girl{
+  width: 50%;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.text1{
+  font-size: 25px;
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Breuer Headline";
+  text-align: center;
+  filter: drop-shadow(0.5px 0.866px 2.5px rgba(0,0,0,0.53));
+
+}
+.text2{
+  font-size: 48px;
+ line-height: 39px;
+ color: #ffffff;
+ font-style: italic;
+ font-family: "Breuer Headline";
+ text-align: center;
+ filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+}
+.text3{
+  font-size: 48px;
+  line-height: 39px;
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Breuer Headline";
+  text-align: center;
+  filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+
+}
