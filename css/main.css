@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Breuer Headline";
+    src: url(../fonts/BreuerHeadline.ttf);
+}
+
+@font-face {
+    font-family: "Breuer Text";
+    src: url(../fonts/BreuerText.ttf);
+}
+
+body {
+    background-image: url(../img/Background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 88.5vw;
+    max-height: auto;
+}
+
+.yellow-text { 
+    color: #ffde39 !important;
+}
+
+.text1{
+    font-size: 25px;
+color: #ffffff;
+font-style: italic;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.5px 0.866px 2.5px rgba(0,0,0,0.53));
+}
+.text2{
+    font-size: 48px;
+line-height: 39px;
+color: #ffffff ;
+font-style: italic;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+}
+.text3{
+    font-size: 48px;
+line-height: 39px;
+color: #ffffff;
+font-style: italic;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+}
+.text4{
+    font-size: 111px;
+line-height: 89px;
+color: #ffffff;
+font-style: italic;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+}
+.text5{
+    font-size: 15px;
+letter-spacing: 0px;
+line-height: 19px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Breuer Text";
+text-align: center;
+}
+
+#betNow{
+    font-size: 28px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Breuer Text";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 0.5px rgba(24,24,24,0.44));
+    background: linear-gradient(270deg, #000000, #213371, #ffffff, #213371, #000000);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    -o-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+    border: 1px solid #77bc20;
+}
+
+.border2{
+    border: 1px solid #ffcf00;
+}
+
+.border3{
+    border:1px solid #ea4632;
+}
+.ellipse{
+    width: 41px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #eeeeee;
+}
+.one{
+    font-size: 84px;
+color: #ffffff;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
+}
+.register{
+
+    font-size: 22px;
+line-height: 23px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Breuer Text";
+filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+}
+
+.two{
+    font-size: 84px;
+color: #ffffff;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));   
+}
+
+.enhance{
+    font-size: 22px;
+line-height: 23px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Breuer Text";
+filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+}
+.three{
+    font-size: 84px;
+color: #ffffff;
+font-family: "Breuer Headline";
+text-align: center;
+filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
+
+}
+.betWins{
+    font-size: 22px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Breuer Text";
+    filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@media (min-width:320px) {
+    .logoIMG {
+        max-width: 10rem;
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  {
+    .logoIMG{
+        max-width: 25rem;   
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
