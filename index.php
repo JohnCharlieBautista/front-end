@@ -21,7 +21,7 @@
               </a>
               <div class="float-end">
                 <button class="btn " type="submit">I'm already a customer</button>
-                <button class="btn btn-outline-success" type="submit" id="loginbtn">Login</button>
+                <button class="btn btn-warning"" type="submit" id="loginbtn">Login</button>
               </div>
           </div>
       </div>
@@ -97,13 +97,14 @@
         </div>
         <div class="row">
           <div class="col-md-3"></div>
-          <div class="col-sm-12 col-md-9 text-center mt-2" style="color: white; margin-left: -3rem;">
+          <div class="col-sm-12 col-md-9 text-center mt-2" id="aboutnTerms">
             <img src="img/arrow.png" alt="">
-            <a href="" class="aboutUs">About Coral Sports Betting</a> | 
-            <a href="" class="termsnCon">Terms & conditions</a>
+            <a href="" class="aboutUs" >About Coral Sports Betting</a> | 
+            <a href="" class="termsnCon" >Terms & conditions</a>
           </div>
         </div>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
     <script>
       window.onload = function() {

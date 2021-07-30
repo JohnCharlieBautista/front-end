@@ -15,6 +15,9 @@ body {
     max-width: 88.5vw;
     max-height: auto;
 }
+.btn-warning{
+background-color: #ffde39 !important
+}
 
 #loginbtn{
     margin-left: -.5rem;
@@ -33,51 +36,51 @@ body {
 
 .text1{
     font-size: 25px;
-color: #ffffff;
-font-style: italic;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.5px 0.866px 2.5px rgba(0,0,0,0.53));
-margin: 0 !important;
+    color: #ffffff;
+    font-style: italic;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 2.5px rgba(0,0,0,0.53));
+    margin: 0 !important;
 }
 .text2{
     font-size: 48px;
-line-height: 39px;
-color: #ffffff ;
-font-style: italic;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
-margin: 0 !important;
+    line-height: 39px;
+    color: #ffffff ;
+    font-style: italic;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+    margin: 0 !important;
 }
 .text3{
     font-size: 48px;
-line-height: 39px;
-color: #ffffff;
-font-style: italic;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
-margin: 0 !important;
+    line-height: 39px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+    margin: 0 !important;
 }
 .text4{
     font-size: 111px;
-line-height: 89px;
-color: #ffffff;
-font-style: italic;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
-margin: 0 !important;
+    line-height: 89px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+    margin: 0 !important;
 }
 .text5{
     font-size: 15px;
-letter-spacing: 0px;
-line-height: 19px;
-color: #ffffff;
-font-weight: 500;
-font-family: "Breuer Text";
-text-align: center;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Breuer Text";
+    text-align: center;
 }
 #email-col{
     margin-left: 3rem
@@ -122,45 +125,45 @@ text-align: center;
 }
 .one{
     font-size: 84px;
-color: #ffffff;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
+    color: #ffffff;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
 }
 .register{
 
     font-size: 22px;
-line-height: 23px;
-color: #ffffff;
-font-weight: bold;
-font-family: "Breuer Text";
-filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
-margin-top: 1.5rem;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Breuer Text";
+    filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+    margin-top: 1.5rem;
 }
 
 .two{
     font-size: 84px;
-color: #ffffff;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));   
+    color: #ffffff;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));   
 }
 
 .enhance{
     font-size: 22px;
-line-height: 23px;
-color: #ffffff;
-font-weight: bold;
-font-family: "Breuer Text";
-filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
-margin-top: 1.5rem;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Breuer Text";
+    filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+    margin-top: 1.5rem;
 }
 .three{
     font-size: 84px;
-color: #ffffff;
-font-family: "Breuer Headline";
-text-align: center;
-filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
+    color: #ffffff;
+    font-family: "Breuer Headline";
+    text-align: center;
+    filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
 
 }
 .betWins{
