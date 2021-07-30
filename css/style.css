@@ -31,6 +31,9 @@ height: 100%;
 overflow: hidden;
 }
 
+#loginbtn{
+  margin-left:-.5rem;
+}
 div.girl{
   position:relative;
 }

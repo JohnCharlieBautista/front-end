@@ -16,6 +16,17 @@ body {
     max-height: auto;
 }
 
+#loginbtn{
+    margin-left: -.5rem;
+}
+
+.IMG{
+    margin-left: -18rem
+}
+.box-middle{
+    margin-top: -38rem; 
+    margin-left: 11rem;
+}
 .yellow-text { 
     color: #ffde39 !important;
 }
@@ -27,6 +38,7 @@ font-style: italic;
 font-family: "Breuer Headline";
 text-align: center;
 filter: drop-shadow(0.5px 0.866px 2.5px rgba(0,0,0,0.53));
+margin: 0 !important;
 }
 .text2{
     font-size: 48px;
@@ -36,6 +48,7 @@ font-style: italic;
 font-family: "Breuer Headline";
 text-align: center;
 filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+margin: 0 !important;
 }
 .text3{
     font-size: 48px;
@@ -45,6 +58,7 @@ font-style: italic;
 font-family: "Breuer Headline";
 text-align: center;
 filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+margin: 0 !important;
 }
 .text4{
     font-size: 111px;
@@ -54,6 +68,7 @@ font-style: italic;
 font-family: "Breuer Headline";
 text-align: center;
 filter: drop-shadow(0.707px 0.707px 2.5px rgba(0,41,87,0.5));
+margin: 0 !important;
 }
 .text5{
     font-size: 15px;
@@ -63,6 +78,9 @@ color: #ffffff;
 font-weight: 500;
 font-family: "Breuer Text";
 text-align: center;
+}
+#email-col{
+    margin-left: 3rem
 }
 
 #betNow{
@@ -81,14 +99,20 @@ text-align: center;
     -o-animation: AnimationName 8s ease infinite;
     animation: AnimationName 8s ease infinite;
     border: 1px solid #77bc20;
+    min-width: inherit; 
+    min-height: inherit;
 }
 
 .border2{
     border: 1px solid #ffcf00;
+    min-width: inherit;
+     min-height: inherit;
 }
 
 .border3{
     border:1px solid #ea4632;
+    min-width: inherit;
+    min-height: inherit;
 }
 .ellipse{
     width: 41px;
@@ -111,6 +135,7 @@ color: #ffffff;
 font-weight: bold;
 font-family: "Breuer Text";
 filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+margin-top: 1.5rem;
 }
 
 .two{
@@ -128,6 +153,7 @@ color: #ffffff;
 font-weight: bold;
 font-family: "Breuer Text";
 filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+margin-top: 1.5rem;
 }
 .three{
     font-size: 84px;
@@ -144,7 +170,25 @@ filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
     font-weight: bold;
     font-family: "Breuer Text";
     filter: drop-shadow(1.414px 1.414px 1.5px rgba(0,0,0,0.75));
+    margin-top: 1.5rem;
 }
+.gambleware{
+    max-width: inherit;
+}
+
+.aboutnTerms{
+    color: white; margin-left: -3rem;
+}
+
+.aboutUs{
+    color: white !important;
+}
+.termsnCon{
+    color: white !important;
+}
+
+
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -170,12 +214,14 @@ filter: drop-shadow(0.707px 0.707px 0px rgba(255,255,255,0.4));
     .logoIMG {
         max-width: 10rem;
     }
+   
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
 @media (min-width:641px)  {
     .logoIMG{
         max-width: 25rem;   
     }
+    
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
