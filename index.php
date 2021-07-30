@@ -98,8 +98,40 @@
           <div class="col-md-3"></div>
           <div class="col-sm-12 col-md-9 text-center mt-2" id="aboutnTerms">
             <img src="img/arrow.png" alt="">
-            <a href="" class="aboutUs" >About Coral Sports Betting</a> | 
+            <a href="#collapseabout" class="aboutUs" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseabout" >About Coral Sports Betting</a> | 
             <a href="" class="termsnCon" >Terms & conditions</a>
+            
+            <div class="collapse" id="collapseabout">
+            <div class="card card-body">
+              <p>1 Only how players aged 18 or over, who created a Coral Poker nickname are eligible to receive the Welcome Bonus. 2. Players must download the poker client, create a poker nickname, then make a first deposit via the download poker client. Only deposito made via the poker
+
+                    `download client will trigger the bonus
+
+                    3. Players who deposited £5-wit qualify for the first welcome offer of £20 worth of cash and tokens. Player who deposited £10- will qualify for both welcome offers. including £20 worth of cash and tokens and a 100% pending bonus up to £200.
+
+                    4. If the bonus does not automatically credit on first deposit please contact us at help@coral.co.uk and we will be happy to add it.
+
+                    5. Players who have an account with a currency other than GBP will receive the currency equivalent in bonus dollars. 8. Tokans will be credited to players accounts instantly following deposit, the £5 will be released after 1 poker point has been earned at the
+
+                    tables.
+
+                    7. The Pending bonus is released in stages according to the number of VIP Points you earn at real cash tables and tournaments. For more information on how to earn points please click here
+
+                    8. The pending bonus will be released in £5 increment for every 300 points earned 9. Once released, the funds can be played on any Coral product or cashed out.
+
+                    10. You must accumulate the necessary number of VIP Points within 90 days of your nickname creation complete the pending bonus. Any remaining pending bonus funds will be removed from your account if the required numbers of points are not accrued in this timeframe.
+
+                    11. ES tournament tokens will expire after 14 days if not used
+
+                    12. The status of pending bonus dollars may be found in the "My Account" section of the Poker client.
+
+                    13. Please note that our Poker games may be played in USD (0), GBP (C) and Euro (E). The Casnier will automatically convert your funds into your desired currency of play (and back) at the prevailing daily exchange rate
+
+                    14. For additional promotional terma, click here
+
+                    15. Promoter: Coral interactive (Gibraltar) Limited, Gibraltar</p>
+            </div>
+            </div>
           </div>
         </div>
         
@@ -130,6 +162,9 @@
             })
         })
       }
+    </script>
+    <script>$('.collapse').collapse()
+
     </script>
   </body>
 </html>
