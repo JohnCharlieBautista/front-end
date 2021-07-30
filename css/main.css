@@ -16,7 +16,7 @@ body {
     max-height: auto;
 }
 .btn-warning{
-background-color: #ffde39 !important
+    background-color: #ffde39 !important
 }
 .customer{
     text-decoration: underline;
@@ -87,7 +87,10 @@ background-color: #ffde39 !important
 #email-col{
     margin-left: 3rem
 }
+h6{
+    text-decoration: underline;
 
+}
 #betNow{
     font-size: 28px;
     line-height: 25px;
@@ -108,7 +111,7 @@ background-color: #ffde39 !important
     min-height: inherit;
 }
 
-.border2{
+#border2{
     border: 1px solid #ffcf00;
     min-width: inherit;
      min-height: inherit;
@@ -119,7 +122,7 @@ background-color: #ffde39 !important
     min-width: inherit;
     min-height: inherit;
 }
-.ellipse{
+#ellipse{
     width: 41px;
     height: 50px;
     border-radius: 25px;

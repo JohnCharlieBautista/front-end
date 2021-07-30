@@ -10,7 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-    <title>Hello, world!</title>
+    <title>Coral</title>
   </head>
   <body>
     <div class="container">
@@ -20,7 +20,7 @@
                 <img src="img/logo.png" alt="logo" class="logoIMG">
               </a>
               <div class="float-end"><a href="to http://www.coral.co.uk">
-                <button class="btn" type="submit">I'm already a customer</button>
+                <button class="btn" type="submit" id="border2"><h6>  I'm already a customer</h6></button>
                 <button class="btn btn-warning" type="submit" id="loginbtn">Login</button></a>
               </div>
           </div>
@@ -46,13 +46,12 @@
             <div class="col-sm-12 col-md-3" id="email-col">
               <input class="form-control me-2" type="text" id="email" placeholder="Email" aria-label="Email">
               <div class="d-grid mt-2">
-                <div class="border3" >
-                  <div class="border2" >
+               
                   <div class="d-grid mt-2">
                     <button class="btn" type="submit" id="betNow" >BET NOW</button>
                   </div>
                   </div>
-                </div>
+                
                 
               </div>
             </div>
@@ -60,7 +59,7 @@
         <div class="row">
             <div class="col col-sm-12 col-md-4">
               <div class="row">
-                <div class="col-3">
+                <div class="col-3" >
                   <h1 class="one align-middle">1</h1>
                 </div>
                 <div class="col-9">
@@ -103,6 +102,7 @@
             <a href="" class="termsnCon" >Terms & conditions</a>
           </div>
         </div>
+        
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
