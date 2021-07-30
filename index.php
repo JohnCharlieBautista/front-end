@@ -16,12 +16,12 @@
     <div class="container">
       <div class="row my-4">
           <div class="col" >
-              <a href="#">
+              <a href="to http://www.coral.co.uk">
                 <img src="img/logo.png" alt="logo" class="logoIMG">
               </a>
-              <div class="float-end">
-                <button class="btn " type="submit">I'm already a customer</button>
-                <button class="btn btn-warning"" type="submit" id="loginbtn">Login</button>
+              <div class="float-end"><a href="to http://www.coral.co.uk">
+                <button class="btn" type="submit">I'm already a customer</button>
+                <button class="btn btn-warning" type="submit" id="loginbtn">Login</button></a>
               </div>
           </div>
       </div>

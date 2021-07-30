@@ -18,7 +18,9 @@ body {
 .btn-warning{
 background-color: #ffde39 !important
 }
-
+.customer{
+    text-decoration: underline;
+}
 #loginbtn{
     margin-left: -.5rem;
 }
@@ -179,8 +181,9 @@ background-color: #ffde39 !important
     max-width: inherit;
 }
 
-.aboutnTerms{
-    color: white; margin-left: -3rem;
+#aboutnTerms{
+    color: white;
+    margin-left: -3rem;
 }
 
 .aboutUs{
